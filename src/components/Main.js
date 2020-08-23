@@ -9,7 +9,7 @@ const Main = () => {
     <Switch>
       <Route
         exact
-        path="/pickforme/"
+        path="/pickforme"
         render={() => {
           return <Redirect to="/pickforme/home" />;
         }}
