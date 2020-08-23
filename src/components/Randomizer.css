@@ -1,0 +1,98 @@
+.randomizer {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: fit-content;
+  margin: 2rem auto;
+  box-shadow: 0 11px 13px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.randomizer__add-item {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.randomizer__add-item input {
+  padding: 0.75rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid var(--black);
+  background: none;
+}
+
+.rand-item {
+  background: var(--black);
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  margin: 0 1rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.randomizer__item-list {
+  max-height: 360px;
+  overflow: scroll;
+}
+
+.randomizer__item-list > div:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.rand-item path, 
+.rand-item p { 
+  color: #fff;
+  margin: 0;
+  max-width: 400px;
+}
+
+.randomizer__result {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 250px;
+  overflow: scroll;
+  padding: 0 0.3rem;
+}
+
+.randomizer__buttons {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+   .randomizer {
+      width: initial;
+   }
+   
+   .randomizer__add-item {
+      display: flex;
+      flex-flow: column wrap;
+   }
+
+   .randomizer__buttons {
+    display:block;
+   }
+
+   .randomizer__pick-button,
+   .randomizer__edit, 
+   .randomizer__pick-again { 
+      display: flex;
+   }
+
+   .randomizer button {
+      margin: 0.75rem;
+   }
+
+   .rand-item {
+      padding: 0.5rem 1rem;
+   }
+}
+
+@media (max-width: 769px) {
+  .rand-item {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--black);
+}
+
+footer > div {
+    flex: 1;
+    margin: 0.5rem 0;
+}
+
+.footer__logo {
+    text-align: left;
+}
+
+.footer__logo img {
+    height: 1.25rem;
+}
+
+.footer__copyright {
+    text-align: center;
+}
+
+.footer__socials {
+    text-align: right;
+}
+
+.footer__socials a {
+    margin: 0 0.5rem;
+}
+
+.footer__socials a:hover path,
+.footer__socials a:active path {
+    color: var(--orange);
+}
+
+@media screen and (max-width: 640px) {
+    footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}

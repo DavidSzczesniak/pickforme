@@ -1,0 +1,12 @@
+.body__get-started {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body__steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

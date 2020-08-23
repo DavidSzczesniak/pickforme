@@ -1,0 +1,29 @@
+button[class^='btn-'] {
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-family: inherit;
+    flex: 1;
+    margin: 1rem;
+    min-width: 12rem;
+}
+
+button[class^='btn-']:hover {
+    text-decoration: underline;
+}
+
+.btn-solid {
+    background: var(--orange);
+    color: #fff;
+}
+
+.btn-outline {
+    background: var(--olive);
+    box-shadow: 0px 0px 0px 3px var(--orange) inset;
+}
+
+@media (min-width: 640px) {
+   button[class^='btn-'] {
+      max-width: 250px;
+   }
+}

@@ -1,0 +1,42 @@
+.side-drawer {
+    background: var(--olive);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 125;
+    display: none;
+    margin-top: 1px;
+}
+
+.side-drawer.open {
+    display: block;
+}
+
+.side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.side-drawer li {
+    margin: 0.5rem 0;
+}
+
+.side-drawer a {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.side-drawer a:hover,
+.side-drawer a:active {
+    color: var(--orange);
+}
+
+@media (min-with: 769px) {
+    .side-drawer {
+        display: none;
+    }
+}
