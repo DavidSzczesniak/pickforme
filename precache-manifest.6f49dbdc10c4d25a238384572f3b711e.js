@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4992f466cf7fa74df82625bfb098ac5b",
+    "revision": "b36e6800fe46fc91a4aa0c0610148b46",
     "url": "/pickforme/index.html"
   },
   {
