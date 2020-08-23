@@ -11,12 +11,12 @@ const Main = () => {
         exact
         path="/"
         render={() => {
-          return <Redirect to="/home" />;
+          return <Redirect to="/pickforme/home" />;
         }}
       />
-      <Route exact path="/home" component={Home} replace></Route>
-      <Route path="/create" exact component={Create} replace></Route>
-      <Route path="/contact" component={Contact} replace></Route>
+      <Route exact path="/pickforme/home" component={Home} replace></Route>
+      <Route path="/pickforme/create" exact component={Create} replace></Route>
+      <Route path="/pickforme/contact" component={Contact} replace></Route>
     </Switch>
   );
 };

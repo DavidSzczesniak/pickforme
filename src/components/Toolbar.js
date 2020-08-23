@@ -20,17 +20,17 @@ const Toolbar = (props) => {
         <div className="toolbar__navigation-items">
           <ul>
             <li>
-              <NavLink exact activeClassName="current" to="/">
+              <NavLink exact activeClassName="current" to="/pickforme/home">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="current" to="/create">
+              <NavLink activeClassName="current" to="/pickforme/create">
                 Create
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="current" to="/contact">
+              <NavLink activeClassName="current" to="/pickforme/contact">
                 Contact
               </NavLink>
             </li>
