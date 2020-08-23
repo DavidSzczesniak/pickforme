@@ -12,7 +12,7 @@ const Toolbar = (props) => {
           <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
         <div className="toolbar__logo">
-          <a href="/">
+          <a href="/pickforme/home">
             <img src={logo} alt="logo"></img>
           </a>
         </div>
