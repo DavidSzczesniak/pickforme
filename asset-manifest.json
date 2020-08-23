@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/pickforme/home/static/css/main.89a545a6.chunk.css",
-    "main.js": "/pickforme/home/static/js/main.385d6900.chunk.js",
-    "main.js.map": "/pickforme/home/static/js/main.385d6900.chunk.js.map",
-    "runtime-main.js": "/pickforme/home/static/js/runtime-main.1035d309.js",
-    "runtime-main.js.map": "/pickforme/home/static/js/runtime-main.1035d309.js.map",
-    "static/js/2.dbe6ef93.chunk.js": "/pickforme/home/static/js/2.dbe6ef93.chunk.js",
-    "static/js/2.dbe6ef93.chunk.js.map": "/pickforme/home/static/js/2.dbe6ef93.chunk.js.map",
-    "index.html": "/pickforme/home/index.html",
-    "precache-manifest.2dce8b40a4e77562b07310bff2eacd91.js": "/pickforme/home/precache-manifest.2dce8b40a4e77562b07310bff2eacd91.js",
-    "service-worker.js": "/pickforme/home/service-worker.js",
-    "static/css/main.89a545a6.chunk.css.map": "/pickforme/home/static/css/main.89a545a6.chunk.css.map",
-    "static/js/2.dbe6ef93.chunk.js.LICENSE.txt": "/pickforme/home/static/js/2.dbe6ef93.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/pickforme/home/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/pfm-logo.svg": "/pickforme/home/static/media/pfm-logo.ace9c6c7.svg"
+    "main.css": "/davidszczesniak.github.io/pickforme/home/static/css/main.2dafc250.chunk.css",
+    "main.js": "/davidszczesniak.github.io/pickforme/home/static/js/main.385d6900.chunk.js",
+    "main.js.map": "/davidszczesniak.github.io/pickforme/home/static/js/main.385d6900.chunk.js.map",
+    "runtime-main.js": "/davidszczesniak.github.io/pickforme/home/static/js/runtime-main.e6855ee9.js",
+    "runtime-main.js.map": "/davidszczesniak.github.io/pickforme/home/static/js/runtime-main.e6855ee9.js.map",
+    "static/js/2.dbe6ef93.chunk.js": "/davidszczesniak.github.io/pickforme/home/static/js/2.dbe6ef93.chunk.js",
+    "static/js/2.dbe6ef93.chunk.js.map": "/davidszczesniak.github.io/pickforme/home/static/js/2.dbe6ef93.chunk.js.map",
+    "index.html": "/davidszczesniak.github.io/pickforme/home/index.html",
+    "precache-manifest.6674113aabf53896dfb53850e054c957.js": "/davidszczesniak.github.io/pickforme/home/precache-manifest.6674113aabf53896dfb53850e054c957.js",
+    "service-worker.js": "/davidszczesniak.github.io/pickforme/home/service-worker.js",
+    "static/css/main.2dafc250.chunk.css.map": "/davidszczesniak.github.io/pickforme/home/static/css/main.2dafc250.chunk.css.map",
+    "static/js/2.dbe6ef93.chunk.js.LICENSE.txt": "/davidszczesniak.github.io/pickforme/home/static/js/2.dbe6ef93.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/davidszczesniak.github.io/pickforme/home/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/pfm-logo.svg": "/davidszczesniak.github.io/pickforme/home/static/media/pfm-logo.ace9c6c7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1035d309.js",
+    "static/js/runtime-main.e6855ee9.js",
     "static/js/2.dbe6ef93.chunk.js",
-    "static/css/main.89a545a6.chunk.css",
+    "static/css/main.2dafc250.chunk.css",
     "static/js/main.385d6900.chunk.js"
   ]
 }
