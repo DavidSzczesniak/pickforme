@@ -32,8 +32,6 @@ export default class App extends Component {
           cancelAnimationFrame(frame);
         }
 
-        console.log("debounce function run");
-
         // Queue our function call for the next frame
         frame = requestAnimationFrame(() => {
           fn(...params);
