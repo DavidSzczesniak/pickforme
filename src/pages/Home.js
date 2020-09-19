@@ -41,7 +41,7 @@ const Home = () => {
     <article>
       <BodyIntro title={introText.title} blurb={introText.blurb} />
       <section className="body__get-started">
-        <NavLink exact activeClassName="current" to="/create">
+        <NavLink exact activeClassName="current" to="/pickforme/create">
           <Button text="Get Started" btnStyle="solid" />
         </NavLink>
       </section>
