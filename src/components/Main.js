@@ -15,7 +15,7 @@ const Main = () => {
         }}
       />
       <Route exact path="/pickforme/home" component={Home} replace></Route>
-      <Route path="/pickforme/create" exact component={Create} replace></Route>
+      <Route path="/pickforme/create" component={Create} replace></Route>
       <Route path="/pickforme/contact" component={Contact} replace></Route>
     </Switch>
   );
