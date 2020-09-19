@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pickforme/static/css/main.1d5bd3d3.chunk.css",
-    "main.js": "/pickforme/static/js/main.edd16e70.chunk.js",
-    "main.js.map": "/pickforme/static/js/main.edd16e70.chunk.js.map",
+    "main.js": "/pickforme/static/js/main.84807dcc.chunk.js",
+    "main.js.map": "/pickforme/static/js/main.84807dcc.chunk.js.map",
     "runtime-main.js": "/pickforme/static/js/runtime-main.6133bcac.js",
     "runtime-main.js.map": "/pickforme/static/js/runtime-main.6133bcac.js.map",
     "static/js/2.dbe6ef93.chunk.js": "/pickforme/static/js/2.dbe6ef93.chunk.js",
     "static/js/2.dbe6ef93.chunk.js.map": "/pickforme/static/js/2.dbe6ef93.chunk.js.map",
     "index.html": "/pickforme/index.html",
-    "precache-manifest.6f49dbdc10c4d25a238384572f3b711e.js": "/pickforme/precache-manifest.6f49dbdc10c4d25a238384572f3b711e.js",
+    "precache-manifest.54d8818234e8c0b5e25df388de7740a4.js": "/pickforme/precache-manifest.54d8818234e8c0b5e25df388de7740a4.js",
     "service-worker.js": "/pickforme/service-worker.js",
     "static/css/main.1d5bd3d3.chunk.css.map": "/pickforme/static/css/main.1d5bd3d3.chunk.css.map",
     "static/js/2.dbe6ef93.chunk.js.LICENSE.txt": "/pickforme/static/js/2.dbe6ef93.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6133bcac.js",
     "static/js/2.dbe6ef93.chunk.js",
     "static/css/main.1d5bd3d3.chunk.css",
-    "static/js/main.edd16e70.chunk.js"
+    "static/js/main.84807dcc.chunk.js"
   ]
 }
