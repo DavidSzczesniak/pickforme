@@ -7,16 +7,9 @@ import Contact from "../pages/Contact";
 const Main = () => {
   return (
     <Switch>
-      <Route
-        exact
-        path="/pickforme"
-        render={() => {
-          return <Redirect to="/pickforme/home" />;
-        }}
-      />
-      <Route exact path="/pickforme/home" component={Home} replace></Route>
-      <Route path="/pickforme/create" component={Create} replace></Route>
-      <Route path="/pickforme/contact" component={Contact} replace></Route>
+      <Route exact path="/" component={Home} />
+      <Route path="/create" component={Create} />
+      <Route path="/contact" component={Contact} />
     </Switch>
   );
 };
