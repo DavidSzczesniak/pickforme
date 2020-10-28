@@ -7,9 +7,9 @@ import Contact from "../pages/Contact";
 const Main = () => {
   return (
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/create" component={Create} />
-      <Route path="/contact" component={Contact} />
+      <Route exact path="/pickforme/" component={Home} />
+      <Route path="/pickforme/create" component={Create} />
+      <Route path="/pickforme/contact" component={Contact} />
     </Switch>
   );
 };

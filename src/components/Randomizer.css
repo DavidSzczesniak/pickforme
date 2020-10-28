@@ -3,8 +3,8 @@
   border-radius: 1rem;
   width: fit-content;
   margin: 2rem auto;
-  box-shadow: 0 11px 13px 0 rgba(0, 0, 0, 0.1);
   background: #fff;
+  border: 2px solid #000;
 }
 
 .randomizer__add-item {
@@ -22,7 +22,7 @@
 }
 
 .rand-item {
-  background: var(--black);
+  background: #7B50B7;
   border-radius: 0.75rem;
   padding: 1rem 1.5rem;
   color: #fff;

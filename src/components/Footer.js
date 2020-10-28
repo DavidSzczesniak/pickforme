@@ -12,15 +12,15 @@ const Footer = (props) => {
   const socialMedia = [
     {
       icon: faTwitter,
-      url: "www.twitter.com",
+      url: "",
     },
     {
       icon: faGithub,
-      url: "www.twitter.com",
+      url: "",
     },
     {
       icon: faInstagram,
-      url: "www.twitter.com",
+      url: "",
     },
   ];
 

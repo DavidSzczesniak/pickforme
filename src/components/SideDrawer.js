@@ -12,7 +12,7 @@ const SideDrawer = (props) => {
     <nav className={drawerClasses}>
       <ul>
         <li onClick={props.drawerClickHandler}>
-          <NavLink exact activeClassName="current" to="/pickforme/home">
+          <NavLink exact activeClassName="current" to="/pickforme/">
             Home
           </NavLink>
         </li>

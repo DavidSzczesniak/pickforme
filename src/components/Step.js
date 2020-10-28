@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Step = (props) => (
   <div className="step">
-    <FontAwesomeIcon icon={props.icon} size="3x" />
+    <FontAwesomeIcon icon={props.icon} size="2x" />
     <h1>{props.title}</h1>
     <p>{props.desc}</p>
   </div>

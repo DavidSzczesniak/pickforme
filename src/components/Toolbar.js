@@ -12,7 +12,7 @@ const Toolbar = (props) => {
           <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
         <div className="toolbar__logo">
-          <a href="/pickforme/home">
+          <a href="/pickforme/">
             <img src={logo} alt="logo"></img>
           </a>
         </div>
@@ -20,7 +20,7 @@ const Toolbar = (props) => {
         <div className="toolbar__navigation-items">
           <ul>
             <li>
-              <NavLink exact activeClassName="current" to="/pickforme/home">
+              <NavLink exact activeClassName="current" to="/pickforme/">
                 Home
               </NavLink>
             </li>
