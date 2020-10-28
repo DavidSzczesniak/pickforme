@@ -3,7 +3,6 @@
   border-radius: 1rem;
   width: fit-content;
   margin: 2rem auto;
-  background: #fff;
   border: 2px solid #000;
 }
 
@@ -22,15 +21,15 @@
 }
 
 .rand-item {
-  background: #7B50B7;
   border-radius: 0.75rem;
   padding: 1rem 1.5rem;
-  color: #fff;
+  background: #fff;
   text-align: left;
   display: flex;
   margin: 0 1rem 1rem;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid #000;
 }
 
 .randomizer__item-list {
@@ -44,9 +43,13 @@
 
 .rand-item path, 
 .rand-item p { 
-  color: #fff;
+  color: #000;
   margin: 0;
   max-width: 400px;
+}
+
+.rand-item__remove:hover path {
+  color: var(--orange);
 }
 
 .randomizer__result {

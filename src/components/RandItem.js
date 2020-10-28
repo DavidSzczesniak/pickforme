@@ -9,7 +9,7 @@ export default class RandItem extends React.Component {
     return (
       <div className="rand-item">
         <p>{item.text}</p>
-        <button onClick={this.removeItem}>
+        <button className="rand-item__remove" onClick={this.removeItem}>
           <FontAwesomeIcon icon={faTimes} size="lg" />
         </button>
       </div>
